@@ -1,0 +1,20 @@
+*{
+    margin: 0 auto 0 auto;
+    max-width: 100%;
+}
+#header{
+    height:100%;
+    text-align: center;
+    background-color: aqua;
+}
+#contest{
+    height:100%;
+    text-align: center;
+    background-color:aquamarine;
+
+}
+#fotter{
+    height:100%;
+    text-align: center;
+    background-color:brown;
+}
