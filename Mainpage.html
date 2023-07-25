@@ -6,20 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>KibiDango's Website</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
     <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     
     <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+  
     <link href="fontawesome-free-5.10.2-web/fontawesome-free-5.10.2-web/css/all.css" rel="stylesheet">
 
+    <!--Boostrap 連結-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Boostrap bundle-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
     <!-- Myself css-->
+
     <link rel="stylesheet" href="css/mainpage.css"/>
 
 </head>
@@ -33,112 +42,122 @@
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#frontEnd!"><i class="fas fa-street-view fa-2x">關於我</i></a>
+                <a class="nav-link" href="#aboutme"><i class="fas fa-street-view fa-2x">關於我</i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#frontEnd!"><i class="fas fa-pen fa-2x">學習&使用工具</i></a>
+                <a class="nav-link" href="#Study&Use Tool"><i class="fas fa-pen fa-2x">學習&使用工具</i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#frontEnd!"><i class="fas fa-bookmark fa-2x">學習網站</i></a>
+                <a class="nav-link" href="#Study Website"><i class="fas fa-bookmark fa-2x">學習網站&頻道</i></a>
               </li>    
             </ul>
           </div>  
       </nav>
-      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        
-      </nav>
-
 
   <!--Header-->
-  <section class="heading">
-    <blockquote>
-      <header>
-       <hr />
-        <p class="aboutme-title">
-          <h1>關於我</h1>
-       </p>
-      </header>
-    </blockquote>
-    <body>
-      <p class="aboutme-subtitle">
-        <h5>一位長時間接觸電腦，並且熱衷於學習各種知識的一名探索者。對於前後端更熱衷於前端多一點的創作者。</h5>
-      </p>
-    </body>
+
+  <section class="aboutme" id="aboutme">  
+    <div class="container-intro text-center">
+      <div class="row">
+        <div class="col-sm-6">
+          <p style="color: aliceblue;">
+            此網頁的方向主要趨向於前端，用於個人測試&記錄用，主要在於提供科技知識分享和網頁設計學習的參考網站和設計。
+            這次撰寫方向為一頁式響應式網站，後續會再陸續上船其他作品到github上。
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <img class="pic-intro" src="images/Stamp265.png">
+        </div>
+      </div>
+    </div>
   </section>
+  
   <!--Body-->
+  
 
   <!--Study&Use Tool-->
-  <section class="section-skills parallax-container scrollspy" id="skill">
+  <section class="section-skills parallax-container scrollspy" id="skill" >
     <blockquote>
       <header>
        <hr />
-        <p class="Study&Use Tool">
+        <p class="Study&Use Tool" id="Study&Use Tool">
           <h1>學習&使用工具</h1>
        </p>
       </header>
     </blockquote>
-      <div class="carousel carousel-slider center" style="height: 64.25px;">
-        <!--Front-End-->
-        <div class="carousel-item white-text valign-wrapper active" href="#frontEnd!" id="front-end-carousel-item" style="z-index: 0; opacity: 1; visibility: visible; transform: translateX(0px) translateX(0px) translateX(0px) translateZ(0px);">
-          <div class="container">
-            <h3>Front-End Skills</h3>
-            <div class="row">
-              <div class="carousel-logo col s2 z-depth-5 tooltip">
-                <img src="./images/skills/Vue.png" alt="Vue.js Logo" class="responsive-img">
-                <span class="tooltip-text">Vue.js</span>
-              </div>
-              <div class="carousel-logo col s2 tooltip">
-                <img src="./images/skills/JavaScript.png" alt="JavaScript Logo" class="responsive-img">
-                <span class="tooltip-text">JavaScript</span>
-              </div>
-              <div class="carousel-logo col s2 tooltip">
-                <img src="./images/skills/Bootstrap.png" alt="Bootstrap Logo" class="responsive-img">
-                <span class="tooltip-text">Bootstrap</span>
-              </div>
+    <!--投影片設計-->
+      <div id="slideshow" class="carousel slide " data-bs-ride="carousel" style="background-color: gray;">
+        <!----Front-End---->
+        <div class="carousel-item active" href="#frontEnd!" id="front-end-carousel-item" alt="First slide">          
+          <h3>Front-End Skills</h3>
+          <div class="row">
+            <div class="carousel-logo col s2 z-depth-5 tooltip">
+              <img src="./images/skills/Vue.png" alt="Vue.js Logo" class="responsive-img">
+              <span class="tooltip-text">Vue.js</span>
+            </div>
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/JavaScript.png" alt="JavaScript Logo" class="responsive-img">
+              <span class="tooltip-text">JavaScript</span>
+            </div>
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/Bootstrap.png" alt="Bootstrap Logo" class="responsive-img">
+              <span class="tooltip-text">Bootstrap</span>
             </div>
           </div>
         </div>
-      </div>
-        <!--Back-End-->
-      <div class="carousel carousel-slider center" style="height: 64.25px;">
-        <div class="carousel-item white-text valign-wrapper active" href="#backEnd!">
-          <div class="container">
-            <h3>Back-End Skills</h3>
-            <div class="row">
-              <div class="carousel-logo col s2 tooltip">
-                <img src="./images/skills/NodeJS.png" alt="NodeJS Logo" class="responsive-img">
-                <span class="tooltip-text">NodeJS</span>
-              </div>
-              <div class="carousel-logo col s2 tooltip">
-                <img src="./images/skills/MySQL.png" alt="MySQL Logo" class="responsive-img">
-                <span class="tooltip-text">MySQL</span>
-              </div>
+        <!----Back-End---->
+        <div class="carousel-item white-text valign-wrapper " href="#backEnd!" alt="Second slide">
+          <h3>Back-End Skills</h3>
+          <div class="row">
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/NodeJS.png" alt="NodeJS Logo" class="responsive-img">
+              <span class="tooltip-text">NodeJS</span>
+            </div>
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/MySQL.png" alt="MySQL Logo" class="responsive-img">
+              <span class="tooltip-text">MySQL</span>
             </div>
           </div>
         </div>
-      </div> 
-        <!--Other Skills ans Tools-->
-      <div class="carousel carousel-slider center" style="height: 64.25px;">
-        <div class="carousel-item white-text valign-wrapper active" href="#others!">
-          <div class="container">
+        <!----Other Skills ans Tools---->
+        <div class="carousel-item white-text valign-wrapper " href="#others!" alt="Third slide">
             <h3>Tools &amp; Others</h3>
-            <div class="row">
-              <div class="carousel-logo col s2 tooltip">
-                <img src="./images/skills/GitHub.png" alt="GitHub Logo" class="responsive-img">
-                <span class="tooltip-text">GitHub</span>
-              </div>
-              <div class="carousel-logo col s2 tooltip">
-                <img src="./images/skills/Git.png" alt="Git Logo" class="responsive-img">
-                <span class="tooltip-text">Git</span>
-              </div>
-              <div class="carousel-logo col s2 tooltip">
-                <img src="./images/skills/Chrome.png" alt="Chrome Logo" class="responsive-img">
-                <span class="tooltip-text">Chrome Extension</span>
-              </div>
+           <div class="row">
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/GitHub.png" alt="GitHub Logo" class="responsive-img">
+              <span class="tooltip-text">GitHub</span>
+            </div>
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/Git.png" alt="Git Logo" class="responsive-img">
+              <span class="tooltip-text">Git</span>
+            </div>
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/Chrome.png" alt="Chrome Logo" class="responsive-img">
+              <span class="tooltip-text">Chrome Extension</span>
             </div>
           </div>
-        </div>
-      </div>
+       </div>
+
+      <!-- 左邊按鈕 -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <!-- 右邊按鈕 -->
+      <button class="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+        <!---指示按鈕-->
+       <ol class="carousel-indicators">
+        <li  data-bs-target="#slideshow" data-bs-slide-to="0" class="active">
+        </li>
+        <li  data-bs-target="#slideshow" data-bs-slide-to="1" >
+        </li>
+        <li  data-bs-target="#slideshow" data-bs-slide-to="2" >
+        </li>
+      </div>                                     
+    </div>
+
+
   </section>
 
   <!--Study Website-->
@@ -146,15 +165,50 @@
     <blockquote>
       <header>
        <hr />
-        <p class="Study Website">
+        <p class="Study Website" id="Study Website">
           <h1>學習網站</h1>
        </p>
       </header>
-    </blockquote>
-    <div class="social-icons">
-      <i class="fab fa-brands fa-github" style="font-size:60px"></i>
-      <i class="fab fa-brands fa-free-code-camp" style="font-size:60px"></i>
-      <i class="fab fa-brands fa-w3school" style="font-size:60px"></i>
+    <div class="container-card text-center">
+      <div class="row">
+        <!---第一個介紹網站-->
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="banner-image"  style="background-image: url(images/background.png);"></div>
+            <img src="images/Webimage/freecodecamp-icon.jpg" alt="profile pic" class="profile-img">
+            <div class="card-body">
+              <h5 class="card-title">Freecodecamp</h5>
+              <p class="card-text">透過一個個小關卡，帶領你一步步學習最基本的網頁開發，包含HTML、CSS、JavaScript，由於是完全免費的，相當推薦還不確定要不要真的轉職的人，無成本學習。</p>
+              <a href="https://www.freecodecamp.org/" class="btn btn-primary">網站連結</a>
+            </div>
+          </div>
+        </div>
+          <!---第二個介紹網站-->
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="banner-image" style="background-image: url(images/background.png);"></div>
+            <img src="images/Webimage/w3school-icon.png" alt="profile pic" class="profile-img">
+            <div class="card-body">
+              <h5 class="card-title">W3Schools</h5>
+              <p class="card-text">整理完善的技術網頁，包含Html、css、javascript......等。方便查詢還有相關功能或程式碼範例。</p>
+              <a href="https://www.w3schools.com/" class="btn btn-primary">網站連結</a>
+            </div>
+          </div>
+        </div>
+        <!---第三個介紹網站-->
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="banner-image" style="background-image: url(images/background.png);"></div>
+            <img src="images/Webimage/github-icon.png" alt="profile pic" class="profile-img">
+            <div class="card-body">
+              <h5 class="card-title">GitHub</h5>
+              <p class="card-text">大多數用來研究其他人的作品和程式碼分享，上傳個人作品建立靜態式網站，和紀錄自己其他成果。但不支援動態網頁語言，像是ASP、PHP.......等。</p>
+              <a href="https://github.com/" class="btn btn-primary">網站連結</a>
+            </div>
+          </div>
+        </div>
+        <!-----分割線---->
+      </div>
     </div>
   </section>
 
