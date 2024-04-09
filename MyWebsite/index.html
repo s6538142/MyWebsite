@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>KibiDango's Website</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!--fonawone-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!--Boostrap 連結-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!--Boostrap bundle-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Myself css-->
+
+  <link rel="stylesheet" href="css/index.css" />
+
+  <link rel="stylesheet" href="css/work.css" />
+
+</head>
+
+<body>
+  <main>
+    <!--LOGO-->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme"><i class="fas fa-street-view fa-2x">關於我</i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Study&Use Tool"><i class="fas fa-pen fa-2x">學習&使用工具</i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Study Website"><i class="fas fa-bookmark fa-2x">學習&資源網站</i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact"><i class="fa-solid fa-comment-sms fa-2x">聯絡我</i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Header-->
+
+    <section class="aboutme" id="aboutme">
+      <div class="container-intro text-center">
+        <div class="row">
+
+          <div class="col-sm-6">
+            <img class="pic-intro" src="images/Stamp265.png">
+          </div>
+
+          <div class="col-sm-6">
+            <p style="color: aliceblue;">
+              你好，我叫廖思愷，是一位還在持續學習的工程師，主要朝向前端工程師的方向學習，提供科技知識分享和網頁設計學習的參考網站和設計。
+              這次撰寫方向為響應式網站，後續會再陸續上船其他作品到github上。
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--Body-->
+
+
+    <!--Study&Use Tool-->
+    <section class="section-skills parallax-container scrollspy" id="skill">
+      <blockquote>
+        <header>
+          <h2 class="Study&Use Tool" id="Study&Use Tool">學習&使用工具</h2>
+        </header>
+      </blockquote>
+      <!--投影片設計-->
+      <div id="slideshow" class="carousel slide " data-bs-ride="carousel" style="background-color: gray;">
+        <!----Front-End---->
+        <div class="carousel-item active" href="#frontEnd!" id="front-end-carousel-item" alt="First slide">
+          <h3>Front-End Skills</h3>
+          <div class="row">
+            <div class="carousel-logo col s2 z-depth-5 tooltip">
+              <img src="./images/skills/Vue.png" alt="Vue.js Logo" class="responsive-img">
+              <span class="tooltip-text">Vue.js</span>
+            </div>
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/html5.png" alt="Html5 Logo" class="responsive-img">
+              <span class="tooltip-text">HTML5</span>
+            </div>
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/angularJS.png" alt="AngularJs Logo" class="responsive-img">
+              <span class="tooltip-text">AngularJs</span>
+            </div>
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/JavaScript.png" alt="JavaScript Logo" class="responsive-img">
+              <span class="tooltip-text">JavaScript</span>
+            </div>
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/Bootstrap.png" alt="Bootstrap Logo" class="responsive-img">
+              <span class="tooltip-text">Bootstrap</span>
+            </div>
+          </div>
+        </div>
+        <!----Back-End---->
+        <div class="carousel-item white-text valign-wrapper " href="#backEnd!" alt="Second slide">
+          <h3>Back-End Skills</h3>
+          <div class="row">
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/NodeJS.png" alt="NodeJS Logo" class="responsive-img">
+              <span class="tooltip-text">NodeJS</span>
+            </div>
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/MySQL.png" alt="MySQL Logo" class="responsive-img">
+              <span class="tooltip-text">MySQL</span>
+            </div>
+          </div>
+        </div>
+        <!----Other Skills ans Tools---->
+        <div class="carousel-item white-text valign-wrapper " href="#others!" alt="Third slide">
+          <h3>Tools &amp; Others</h3>
+          <div class="row">
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/GitHub.png" alt="GitHub Logo" class="responsive-img">
+              <span class="tooltip-text">GitHub</span>
+            </div>
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/Git.png" alt="Git Logo" class="responsive-img">
+              <span class="tooltip-text">Git</span>
+            </div>
+            <div class="carousel-logo col s2 tooltip">
+              <img src="./images/skills/Chrome.png" alt="Chrome Logo" class="responsive-img">
+              <span class="tooltip-text">Chrome Extension</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 左邊按鈕 -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <!-- 右邊按鈕 -->
+        <button class="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <!---指示按鈕-->
+        <ol class="carousel-indicators">
+          <li data-bs-target="#slideshow" data-bs-slide-to="0" class="active">
+          </li>
+          <li data-bs-target="#slideshow" data-bs-slide-to="1">
+          </li>
+          <li data-bs-target="#slideshow" data-bs-slide-to="2">
+          </li>
+      </div>
+      </div>
+    </section>
+
+
+
+    <section id="Portfolio">
+      <blockquote>
+        <header>
+          <h2 class="work" id="work">學習&資源網站</h2>
+        </header>
+      </blockquote>
+      <div class="container">
+        <div class="card">
+          <div class="side-front">
+            <img src="images/Webimage/freecodecamp.jpg" class="cover" alt="">
+          </div>
+          <div class="side-back">freecodecamp</div>
+        </div>
+        <div class="card">
+          <div class="side-front">
+            <img src="images/Webimage/w3schools.png" class="pos1" alt="">
+          </div>
+          <div class="side-back">w3schools</div>
+        </div>
+        <div class="card pic1">
+          <div class="side-front">
+            <img src="images/Webimage/leedcode.png" class="pos1" alt="">
+          </div>
+          <div class="side-back">leedcode</div>
+        </div>
+        <div class="card">
+          <div class="side-front">
+            <img src="images/Webimage/greatgood.png" alt="">
+          </div>
+          <div class="side-back">鬼谷設計</div>
+        </div>
+        <div class="card pic2">
+          <div class="side-front">
+            <img src="images/Webimage/github-icon.png" alt="">
+          </div>
+          <div class="side-back">GitHub</div>
+        </div>
+        <div class="card pic3">
+          <div class="side-front">
+            <img src="images/Webimage/Pinterest.png" alt="">
+          </div>
+          <div class="side-back">Pinterest</div>
+        </div>
+        <div class="card">
+          <div class="side-front">
+            <img src="images/Webimage/Bootstrap5.png" alt="">
+          </div>
+          <div class="side-back">Bootstrap5</div>
+        </div>
+        <div class="card">
+          <div class="side-front">
+            <img src="images/Webimage/Youtube.png" class="cover" alt="">
+          </div>
+          <div class="side-back">Youtube</div>
+        </div>
+        <div class="card">
+          <div class="side-front">
+            <img src="images/Webimage/responsive-jp.png" alt="">
+          </div>
+          <div class="side-back">RWDJP</div>
+        </div>
+        <div class="card ">
+          <div class="side-front">
+            <img src="images/Webimage/Adobe Color.png" alt="">
+          </div>
+          <div class="side-back">Adobe Color</div>
+        </div>
+    </section>
+
+    <section id="Contact">
+      <div class="container">
+
+        <div class="w-50">
+          <h2>Contact Us</h2>
+          <p>如有任何問題或疑問，請隨時聯絡我們。</p>
+          <ul class="info">
+            <li><i class="fa-solid fa-location-dot"></i> 新北市新莊區西盛街228號3樓</li>
+            <li><i class="fa-solid fa-phone-volume"></i> 0981218385</li>
+            <li><i class="fa-solid fa-envelope"></i> c6538142@mail.com</li>
+          </ul>
+        </div>
+
+        <div class="w-50">
+          <form action="#" id="ContactForm">
+            <div class="form-group">
+              <label for="Name">姓名</label>
+              <input type="text" name="name" id="Name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="Address">地址</label>
+              <input type="text" name="address" id="Address" required />
+            </div>
+
+            <div class="form-group">
+              <label for="Phone">電話</label>
+              <input type="tel" name="phone" id="Phone" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">意見</label>
+              <textarea id="message" name="message" rows="8" required></textarea>
+            </div>
+
+            <div class="form-group">
+              <button type="submit" class="btn-submit">確定送出</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+
+    <footer>
+      <nav class="col" style=" width: 100% ; ">
+        <p style="text-align: center; color: white;">JibeiTuanzi's Portfolio &copy; Copyright 2024</p>
+      </nav>
+    </footer>
+  </main>
+</body>
+
+</html>

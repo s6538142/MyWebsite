@@ -1,0 +1,214 @@
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+  display: block;
+}
+
+.studybook {
+  width: 40px;
+  height: 40px;
+}
+
+body {
+  color: #9e6b6b;
+  background-color: #f9f8f6;
+  background-position: center;
+  font-family: Georgia, times, serif;
+  line-height: 1.4em;
+  margin: 0px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 20px auto 20px auto;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+}
+
+header {
+  height: 100px;
+  padding-top: 2%;
+}
+
+hgroup {
+  margin-top: 40px;
+}
+
+figure {
+  float: left;
+  width: 290px;
+  height: 220px;
+  padding: 5px;
+  margin: 20px;
+  border: solid #eeeeee;
+}
+
+figcaption {
+  font-size: 90%;
+  text-align: left;
+}
+
+section.courses {
+  float: left;
+  width: 659px;
+  border-right: 1px solid #eeeeee;
+}
+
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+}
+
+aside {
+  width: 230px;
+  float: left;
+  padding: 0px 0px 0px 20px;
+}
+
+aside section a {
+  display: block;
+
+}
+
+/*---------------------------------------------------------------------*/
+
+* {
+  font-family: Arial, Verdana, sans-serif;
+
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+h3 {
+  color: #fff;
+}
+
+#nav,
+#feature,
+.article,
+#footer {
+  background-color: #efefef;
+  margin-top: 20px;
+  padding: 10px 0px 5px 0px;
+}
+
+#feature,
+.article {
+  height: 100px;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+.col-sm-4 {
+  text-align: center;
+}
+
+
+
+/*---aboutme------*/
+
+.container-intro {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 19, 121, 0.8323704481792717) 45%, rgba(0, 168, 255, 0.6054796918767507) 85%);
+
+  padding: 50px;
+  color: white;
+  font-size: 20px;
+}
+
+.pic-intro {
+  width: 300px;
+  height: 300px;
+  border: 5px solid rgb(50, 49, 49);
+  border-radius: 50%;
+  padding: 20px;
+}
+
+
+/*---skill---*/
+
+.section-skills .overlay {
+  width: 100%;
+  background-color: rgba(70, 68, 68, 0.6)
+}
+
+.section-skills .carousel {
+  height: 300px !important;
+}
+
+.carousel.carousel-slider .carousel-item h3 {
+  text-shadow: 1px 1px 4px #232222;
+}
+
+.carousel.carousel-slider .carousel-item {
+  min-height: unset;
+}
+
+.carousel .row {
+  max-height: 150px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel .row .col.s2 {
+  max-width: 101px;
+  margin-left: unset;
+}
+
+.carousel img.responsive-img {
+  width: 100%;
+  max-width: 120px;
+}
+
+.carousel-logo {
+  margin: 0 1rem;
+  background-color: rgb(241, 240, 240);
+  border-radius: 15%;
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(107, 105, 107, 1);
+  -moz-box-shadow: 1px 1px 1px 1px rgba(107, 105, 107, 1);
+  box-shadow: 1px 1px 1px 1px rgba(107, 105, 107, 1);
+  opacity: .7;
+}
+
+.carousel-logo:hover {
+  opacity: .9;
+  transition: opacity .2s linear;
+  -webkit-transition: opacity .2s linear;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  z-index: 1;
+  padding: 5px 5px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .7);
+  border-radius: 5px;
+  visibility: hidden;
+  transform: translateX(-50%);
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+
+
